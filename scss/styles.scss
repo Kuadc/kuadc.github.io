@@ -1,0 +1,158 @@
+
+$navbar-nav-link-padding-x:         3rem;
+$form-select-indicator-color:  #04BFBF;
+
+$form-select-padding-x: 2rem;
+$form-range-thumb-bg: #04BFBF;
+
+$carousel-control-color: #04BFBF;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import '../node_modules/bootstrap/scss/variables';
+
+.nav-link:hover, .nav-link:focus {
+  color: #04C4D9;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+  text-decoration-line: underline;
+  text-decoration-color: #04C4D9;
+}
+.figure-caption {
+  position: relative;
+  background: rgba(160, 165, 2, 0.9);
+  bottom: 70px;
+  right: 0;
+  width: 100%;
+  padding: 10px 20px;
+  height: 56px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+/*figcaption {
+  position: relative;
+  background: rgba(0,0,0,.5);
+  bottom: 100;
+  right: 0;
+  width: 100%;
+  padding: 10px 20px;
+  height: 56px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}*/
+
+.text-center
+{
+  margin-top: 2em;
+}
+.navbar
+{
+    background-color: #ffffff;
+    padding: 12px 10px 11px;
+}
+
+.input-group-text {
+  background-color: #04ADBF;
+  border: 1px solid #04BFBF;
+}
+
+.navtext
+{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
+
+.list-inline>li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.card-header {
+  background-color: #04ADBF;
+}
+
+span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+.form-label {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+/* iconos footer*/
+a{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #04ADBF
+}
+
+/*  -------*/
+
+
+.enlaces-nav
+{
+    padding-bottom: 1em;
+}
+
+.enlaces-nav p a{
+    font-size:16px;
+    -webkit-transition: .5s ease-in-out; 
+    -moz-transition:.5s ease-in-out; 
+    -ms-transition:.5s ease-in-out; 
+    -o-transition:.5s ease-in-out;
+    transition: .5s ease-in-out;   
+}
+
+.enlaces-nav p a:hover
+{
+  transform: scaleX(1.2);
+}
+
+.btn-buscar
+{
+  padding-top: 2em;
+}
+
+
+.eleccion-destino h2{
+	color: #565a5c;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+
+
+.tab-para {
+    padding: 43px 42px 24px;
+}
+
+

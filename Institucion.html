@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="es">
+  <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Breve descripcion del sitio-->
+      <meta name="description" content="Este es un documento HTML5">
+      <!-- Palabras clave-->
+      <meta name="keywords" content="viajes, vacaciones, pasajes, reservas">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet"  href="scss/styles.css" >
+      <link rel="stylesheet" href="css/miestilos.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <!-- fuente-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <!-- Icono y nombre de la pagina -->
+      <link rel="icon" type="image/icon" sizes="16x16" href="images/icono.ico">
+      <title>Epet Nº8</title>
+  </head>
+  <body>
+    <!-- whatsapp-->
+    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <!-- fin whatsapp-->
+    <!-- nav bar-->
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid sticky-top">
+          <a class="navbar-brand navtext" href="index.html"> <img src="images/logo.svg" height="50" alt=""></a>
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navtext" aria-current="page" href="index.html"><span>Inicio</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtext" href="Institucion.html">Institucion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtext" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item ">
+                <div type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#iniciarsesion">Iniciar sesion</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav><!--Final nav-bar-->
+      <div class="home-border"></div>
+
+  <!--comienzo post principal-->
+<section>
+  <div class="modal" tabindex="-1" id="iniciarsesion">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Iniciar Sesion</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div >
+              <label for="exampleInputEmail1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Cuidamos su informacion personal</div>
+            </div>
+            <div>
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container text-center">
+      <div>
+        <p>
+          Nuestra Institución
+        </p>
+        <h2 class="raleway-institucion">
+          Formando Alumnos Técnicos Informáticos
+        </h2>
+        <p class="texto_institucion">
+          Hace 25 años comenzamos nuestro sueño de abrir una escuela técnica en el departamento de Santa Lucia, comenzamos con 3 pequeñas aulas prestados por la Escuela primaria “Provincia de Corrientes”, hoy podemos decir orgullosos que tenemos nuevos edificios para albergar a mas de 400 alumnos con talleres para formar técnicos profesionales en informática. 
+        </p>
+      </div>
+      <div class="imagen_institucion">
+        <img src="images/Institucion/Institucion.webp" alt="" class="img-fluid rounded">
+      </div>
+    </div>
+</section>
+  <!--fin post principal-->
+
+<section>
+  <div class="container">
+    <div class="text-center">
+      <h2 class="raleway-institucion">
+        Como funciona nuestra escuela
+      </h2>
+    </div>
+  </div>
+  <div class="container">
+      <div class="row">
+        <div class="col-12 centrado_titulo">
+            <div class="row">
+              <div class="col-md-4 ">
+                <div class="card card-item_inst">
+                  <div class="card-body_inst">
+                    <h1 class="raleway-tarjeta"> 01</h1>
+                    <p class="titulo_tarjeta_inst ">Cursado</p>
+                    <p class="card-text texto_tarjeta"> El plan de estudios se centra en materias relacionadas con la informática, abarcando desde conceptos básicos hasta temas más avanzados como programación, redes, bases de datos, seguridad informática, entre otros.</p>
+                    <button type="button" class="boton_institucion">Leer mas...</button>
+                  </div>
+                </div>
+              </div><!--fin 01-->
+
+              <div class="col-md-4 ">
+                <div class="card card-item_inst">
+                  <div class="card-body_inst">
+                    <h1 class="raleway-tarjeta"> 02</h1>
+                    <p class="titulo_tarjeta_inst ">Talleres</p>
+                    <p class="card-text texto_tarjeta">Además de las clases teóricas, los estudiantes participan en talleres prácticos que abarcan distintas áreas, como informática, robótica, carpintería, dibujo técnico, entre otros.</p>
+                    <button type="button" class="boton_institucion">Leer mas...</button>
+                  </div>
+                </div>
+              </div><!--fin 02-->
+
+              <div class="col-md-4 ">
+                <div class="card card-item_inst">
+                  <div class="card-body_inst">
+                    <h1 class="raleway-tarjeta"> 03</h1>
+                    <p class="titulo_tarjeta_inst ">Proyectos</p>
+                    <p class="card-text texto_tarjeta"> Los estudiantes tienen la oportunidad de participar activamente en la concepción, diseño y ejecución de proyectos, lo que les brinda una experiencia práctica invaluable y les permite aplicar sus conocimientos en situaciones reales.</p>
+                    <button type="button" class="boton_institucion">Leer mas...</button>
+                  </div>
+                </div>
+              </div><!--fin 03-->
+
+            </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+   <!--comienzo subscripcion-->
+   <section id="subs" class="subscribe"><!--subscribcion-->
+    <div class="container">
+      <div class="subscribe-title text-center">
+        <h2 class="d-none d-md-block">
+          Suscribase para recibir nuestras ultimas noticias.
+        </h2>
+        <h2 class="d-block d-sm-none">
+          ¡Suscribase!
+        </h2>
+        <p>
+          ¡Se les respondera mañana si envia su correo despues de las 19 hs!
+        </p>
+      </div>
+      <form><!--Comienzo del formulario de inscripcion-->
+        <div class="row justify-content-md-center text-center">
+          <div class="col-md-auto">
+            <div class="mb-3"> <!--mb-3 le agrega un margen inferior al elemnto-->
+              <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su correo">
+            </div>
+            
+          </div>
+          <div class="col-md-auto">
+            <button type="button" class="btn boton_subscripcion">Enviar</button>
+          </div>
+          
+        </div>
+        
+      </form><!--Fin del formulario-->
+    </div>
+
+  </section><!--fin subscripcion-->
+
+  <!--Footer-->
+    <footer class="footer-fondo">
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="row justify-content-center">
+                <!--comienzo de 1ra linea del footer-->
+                <div class="col-sm-12 logo_centrado">
+                  <img src="images/logo.svg" class="logo-footer">
+                </div><!--fin logo-->
+                <div class="col-sm-4 ">
+                    <div>
+                      <p>
+                        <a href="index.html">Inicio</a>
+                      </p>
+                      <p>
+                        <a href="Institucion.html">Instituciòn</a>
+                      </p>
+                      <p>
+                        <a href="contacto.html">Contacto</a>
+                      </p>
+                      <p>
+                        <a href=""  data-bs-toggle="modal" data-bs-target="#iniciarsesion">Inciar Sesión</a>
+                      </p>
+                    </div>
+                </div><!--fin links nav-->
+                <div class="col-sm-4 ">
+                  <div>
+                    <p>
+                      <a href="">Terminos y condiciones generales</a>
+                    </p>
+                    <p>
+                      <a href="">Preguntas Frecuentes</a>
+                    </p>
+                    <p>
+                      <a href="">Posteos antiguos</a>
+                    </p>
+                  </div>
+                </div><!--fin links nosotros-->
+                <div class="col-sm-4  ">
+                  <div>
+                    <p>
+                      <a href="">Tef: 264-4302245</a>
+                    </p>
+                    <p>
+                      <a href="">Av. Rawson 714 norte</a>
+                    </p>
+                    <p>
+                      <a href="">San Juan - Argentina</a>
+                    </p>
+                  </div>
+                </div><!--contactos-->
+                <!--fin 1era linea del footer-->
+                <div class="col-12">
+                  <div class="iconos-footer footer-icon">
+                    <ul class="list-inline list-unstyled">
+                      <li class="li-margin" ><a href="#" target="_blank" class="enlaces-nav"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li class="li-margin"><a href="#" target="_blank" class="enlaces-nav"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                      <li class="li-margin"><a href="#" target="_blank" class="enlaces-nav"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                    </ul> 
+                    <p class="copy">&copy; 2024 <a href="https://epet8.github.io">E.P.E.T N°8</a>. Todos los derechos reservados</p>
+                  </div>
+                </div>
+              </div>    
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+    <!--Fin Footer-->
+
+    <div> <!-- No borrar, bootstrap-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
