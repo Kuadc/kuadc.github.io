@@ -1,0 +1,832 @@
+
+
+/*banner inicio */
+.banner_inicio {
+    border-radius: 0%;
+}
+
+.bienvenido{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.6);
+}
+.banner_inicio img{
+    max-width: 100%;
+    height: auto;
+}
+.centrado_titulo{
+    text-align: center;
+    color: #F0F0F0;
+
+  }
+
+.fondo-banner{
+    background-color:#0477BF;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.boton_derecha{
+    text-align: left;
+}
+.boton_banner{
+    color: #ffffff;
+    border-color: #ffffff;
+    --bs-btn-padding-y: 5px;
+    --bs-btn-padding-x: 21px;
+}
+
+.boton_inicio{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #0477BF; 
+    text-decoration: none; 
+    border: 1px solid #0477BF;
+    border-color: #0477BF;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: 0.3s ease-in-out;
+
+}
+
+.boton_inicio:hover{
+    background-color: #04C4D9;
+    border-color: #04C4D9;
+    color: #f5f5f5;
+    box-shadow: 0 5px 20px rgba(14,15,18,.7);
+}
+
+.boton_inicio_nav{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0477BF; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: 0.3s ease-in-out;
+
+}
+
+.boton_inicio_nav:hover{
+    background-color: #04C4D9;
+    border-color: #04C4D9;
+    color: #f5f5f5;
+    box-shadow: 0 5px 20px rgba(14,15,18,.7);
+}
+
+
+.boton_nav:hover{
+    background-color: #04C4D9;
+    border-color: #04C4D9;
+    color: #f5f5f5;
+    box-shadow: 0 5px 20px rgba(14,15,18,.7);
+}
+
+.btn{
+    transition: 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: #04C4D9;
+    border-color: #04C4D9;
+    color: #f5f5f5;
+    box-shadow: 0 5px 20px rgba(14,15,18,.7);
+}
+
+.texto_bienvenida
+{
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.125em;
+}
+  .centrado_titulo .row{
+    margin-bottom: 40px;
+  }
+
+
+  .post_inicio img {
+    max-width: 100%;
+    height: auto;
+  }
+/*-------------------------------------
+         posteo principal
+--------------------------------------*/
+
+.card-item-posteos1
+{
+    margin-top: 1em;
+    padding-bottom: 40px;
+    --bs-card-bg: #ffffff05;
+    --bs-card-border-color: #ffffff05;
+}
+
+.img_robotica{
+    margin-bottom: 30px;
+}
+
+.actividad{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #696969;
+    padding-left: 34px;
+}
+
+
+.ultimo_posteo{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #F0F0F0;
+  }
+.robotica{
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.125em;
+}
+
+.texto_robotica{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.125em;
+}
+.titulo_robotica{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.125em;
+}
+
+
+/* -------------------------- posteo inicio------------------------------------------*/
+
+.post-lede {
+    font-family: "Raleway", arial, sans-serif;
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+  
+  .post-body p {
+    margin: 0;
+  }
+  
+  .post-body p + p {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .post-body {
+    box-sizing: border-box;
+    max-width: 30em;
+    width: 94%;
+    font-size: 1.125em;
+    margin: 0vw auto 2em auto;
+    
+    padding: 3%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px; 
+  }
+
+  @media (min-width: 768px) {
+    .post-body {
+        margin: -15vw auto 2em auto;; /* Margen negativo en la parte superior en dispositivos de tamaño medio y superiores */
+    }
+}
+  .post-title {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    text-shadow: 0 0 .2em rgba(0, 0, 0, 0.6);
+    color: #000000;
+  }
+  
+  .post-header {
+    overflow: hidden;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 35vw;
+    margin: 25px auto;
+    background-size: cover;
+    background-position: 50% 0;
+    background-image: url('../images/posteo/robotica_post.webp');
+    border-radius: 10px; 
+  }
+  
+/* -------------------------- pruebas------------------------------------------*/
+
+
+
+/*-------------------------------------
+         Capacitacion tecnica
+--------------------------------------*/
+.conta {
+    padding: auto;
+  }
+  
+.conta .container{
+    display: flex;
+    justify-content: center; 
+
+}
+  .cap_tecnica_titulo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+  }
+  
+  .titulo {
+    margin: 0; 
+    padding-right: 20px;
+    font-size: max(1.7rem, 2.5vw);
+  }
+  
+  .boton {
+    margin-left: auto; 
+    background-color: #0477BF;
+    color: #F0F0F0;
+  }
+  
+.Capacitacion{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 34px;
+    line-height: 1.5;
+    font-size: max(1.7rem, 2.5vw);
+}
+
+
+.boton_ver_post{
+    text-align: right;
+    display:flex;
+    flex-flow: row-reverse;
+
+    
+}
+.boton_post{
+    background-color: #0477BF;
+    text-align: left;
+}
+.cap_tecnica{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/*hover de navegacion*/
+nav-link:hover, .nav-link:focus {
+    color: #04C4D9;
+    text-decoration-thickness: 3px;
+    text-underline-position: under;
+    text-decoration-line: underline;
+    text-decoration-color: #04C4D9;
+  }
+
+/* Fondo body*/
+
+body{
+    background-color: #F2F2F2;
+    font-family: raleway, sans-serif;
+}
+
+/*fondo principal*/
+
+.centradoh4 {
+    text-align: center;
+}
+
+
+/* Texto pagina principal*/
+.titulo_principal {
+    letter-spacing: 2px;
+    font-size: clamp(1.2rem, 6.5vw, 8.8rem);
+    color: #000000;
+    text-align: center;
+    
+}
+
+/* logo footer centrado*/
+
+.logo_centrado{
+    padding: 10 10;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around
+}
+
+
+/*Tarjetas */
+
+.card-item:hover img{
+    --bs-card-bg: #ffffff05;
+    
+}
+.card-body{
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-item-posteos
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    --bs-card-bg: #ffffff05;
+    --bs-card-border-color: #ffffff05;
+}
+
+.card-item
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    --bs-card-bg: #ffffff05;
+    --bs-card-border-color: #ffffff05;
+}
+
+.card-item img{
+    transition: transform 0.3s ease;
+}
+
+.card-item:hover img{
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+}
+.boton_tarjeta{
+    color: #0477BF;
+    text-decoration:underline ;
+    padding: 0px 0px 0px 0px;
+}
+
+.boton_tarjeta:hover{
+    border-color: #ffffff05;
+    color: #000000;
+    
+
+
+}
+.Boton-card
+{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0477BF;
+    border: 1px solid #0477BF;
+    width: 100px;
+    height: 40px;
+    white-space: nowrap;
+    color: #fff;
+    font-size:16px;
+    font-family: 'raleway', sans-serif;
+    
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(14,15,18,.2);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.Boton-card:hover {
+    color: #fff;
+    background: #04BFBF;
+    box-shadow: 0 5px 20px rgba(14,15,18,.7);
+	border: 1px solid #04ADBF;
+}
+
+
+
+/*whatsapp contacto*/
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#a5a4a4;
+    color:rgb(0, 0, 0);
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+
+
+.centrado{
+    color: #F0F0F0;
+    font-weight: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.centrado-row
+{
+    padding: auto;
+}
+
+.titulo-actividad
+{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.caja-actividad
+{
+    margin: 2px;
+    margin-top: 2;
+    background: #fff;
+    border: transparent;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    position: relative;
+}
+
+
+.precio-actividad
+{
+    margin-top: -45px;
+    color: #a5a4a4;
+}
+.galeria2
+{
+    background-color: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+/* CONTACTO */
+
+.estilo-form
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+.contactenos
+{
+    font-weight: 100;
+    font-size: 4em;
+    margin-top: 48px;
+    margin-left: 200px;
+}
+
+/* tips paquetes */
+
+.tips-viajes
+{
+    padding-top: 5em;
+    padding-bottom: 5em;;
+}
+.centrado-columna
+{
+    padding-left: 2em;
+}
+
+
+/*-------------------------------------
+         Subscripcion
+--------------------------------------*/
+.subscribe {
+    position: relative;
+    padding: 40px;
+    background-color: #0477BF;
+    background-size: cover;
+    z-index: 1;
+}
+
+/*subscribcion*/
+
+.subscribe .subscribe-title {
+    margin-bottom: 45px;
+}
+.subscribe-title h2{
+    color:#fff;
+    font-size:38px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
+    
+}
+.subscribe-title p{
+    color:#fff;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.boton_subscripcion{
+        color: #ffffff;
+        border-color: #ffffff;
+       
+        box-shadow: 0 5px 20px rgba(14,15,18,.2);
+        transition: 0.3s ease-in-out;
+        --bs-btn-padding-y: 8px;
+        --bs-btn-padding-x: 32px;
+    }
+
+
+
+
+/*--------*/
+/* Footer */
+/*--------*/
+.footer-fondo
+{
+    background-color: #ffffff;
+    padding: 10px 10px;
+}
+
+.texto_footer
+{
+    text-align: center;
+    font-size: 5vw;
+}
+
+.logo-footer
+{
+    height: 71px;
+    width: 162px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.footer-mar
+{
+    padding-top: 2em;
+}
+
+.iconos-footer
+{
+    text-align: center;
+}
+
+
+
+.footer-icon
+{
+    height: 30px;
+    font-size: 50px;
+    color: #04ADBF;
+}
+
+
+.li-margin
+{
+    margin-left: 30px;
+
+}
+
+.copy
+{
+    color: #696969;
+    font-size: 20px;
+}
+
+/*-----------------------------------
+    Pagina Institucion
+------------------------------------*/
+
+.texto_institucion{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.125em;
+}
+
+.imagen_institucion{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.raleway-institucion {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+
+
+/*---------- Tarjetas----------*/
+
+.titulo_tarjeta_inst {
+    color: #0477BF;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: max(0.8rem, 1.2vw);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.boton_institucion{
+    color: #0477BF;
+    border-color: #0477bf00;
+    cursor: pointer;
+    bottom: 0;
+}
+
+.card-item_inst {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    --bs-card-bg: #ffffff05;
+    --bs-card-border-color: #ffffff05;
+}
+
+.card-body_inst {
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-body_inst:hover{
+    background-color: #0477BF;
+    border-radius: 10px;
+    color: #F0F0F0;
+    .titulo_tarjeta_inst{
+        color: #F0F0F0;
+    }
+    .boton_institucion{
+        color: #ffffff;
+        background-color: #0477BF;
+        text-decoration-thickness: 1px;
+        text-underline-position: under;
+        text-decoration-line: underline;
+        text-decoration-color: #ffffff;
+    }
+}
+
+.texto_tarjeta {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.125em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.raleway-tarjeta {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+/*--------------------------------------
+         Posteo robotica
+--------------------------------------*/
+.imagen_posteo{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.texto_posteo{
+    text-align: center;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+    font-size: 1.125em;
+}
+
+.texto_cursiva{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#0477BF;
+    text-decoration: wavy;
+}
+
+.raleway-posteo {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+.fecha-posteo{
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.125em;
+    color: #7f8183;
+}
+
+/*------------------------
+        contacto
+------------------------*/
+
+
+.card-body_contacto {
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: #ffffff;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.titulo_tarjeta_contacto {
+    color: #0477BF;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: max(0.8rem, 1.2vw);
+}
+
+.iconos_contacto
+{
+    font-size:100px;
+    padding-bottom: 1em;
+    color: #04ADBF;
+}
+
+.iconos_contacto a{
+
+    -webkit-transition: .5s ease-in-out; 
+    -moz-transition:.5s ease-in-out; 
+    -ms-transition:.5s ease-in-out; 
+    -o-transition:.5s ease-in-out;
+    transition: .5s ease-in-out;   
+}
+
+.mapa_contacto{
+    max-width: 1230px;
+    width: 100%;
+}
+
+.main-form {
+    background: #ffffffe8;
+    padding: 35px 35px;
+    max-width: 50em;
+    margin: 2vw auto 2em auto;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .main-form {
+        margin: -6vw auto 2em auto;; /* Margen negativo en la parte superior en dispositivos de tamaño medio y superiores */
+    }
+}
+
+
+.btn-primary{
+    background-color: #0477BF;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.modal-body{
+    font-family: raleway, sans-serif;
+    font-weight: 200;
+}
+
+.form-label {
+    color: #0477BF;
+    font-weight: 500;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: 700;
+}
